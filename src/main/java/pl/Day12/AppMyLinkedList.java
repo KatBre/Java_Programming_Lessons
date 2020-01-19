@@ -1,5 +1,10 @@
 package pl.Day12;
 
+import pl.RepeatDay12.Employee;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class AppMyLinkedList {
     public static void main(String[] args) {
         MyLinkedList myLinkedList = new MyLinkedList();
