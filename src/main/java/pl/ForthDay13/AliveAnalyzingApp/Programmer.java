@@ -1,4 +1,4 @@
-package pl.ForthDay13;
+package pl.ForthDay13.AliveAnalyzingApp;
 
 public class Programmer {
     private long id = 0;

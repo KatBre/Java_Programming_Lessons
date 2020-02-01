@@ -1,4 +1,4 @@
-package pl.ForthDay13;
+package pl.ForthDay13.TimeCalculator;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

@@ -1,4 +1,4 @@
-package pl.ForthDay13;
+package pl.ForthDay13.AliveAnalyzingApp;
 
 import java.util.ArrayList;
 import java.util.List;
