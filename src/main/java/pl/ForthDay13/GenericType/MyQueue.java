@@ -11,9 +11,10 @@ public class MyQueue<T> {
     }
 
     public T pool() {
-        T result = underlyingList.get(0);
-        underlyingList.remove(0);
-        return result;
+//        T result = underlyingList.get(0);
+//        underlyingList.remove(0);
+//        return result;
+        return underlyingList.remove(0);
     }
 
     public void printAll() {

@@ -10,7 +10,7 @@ public class AppQueue {
 //        MyQueue<Integer> myIntegerQueue = new MyQueue<>();
         myStringQueue.printAll();
         myStringQueue.pool();
-        myStringQueue.pool();
+        System.out.println("second pool: "  + myStringQueue.pool());
         System.out.println("After removal: ");
         myStringQueue.printAll();
     }
