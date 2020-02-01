@@ -1,4 +1,4 @@
-package pl.Day12;
+package pl.ThirdDay12;
 
 public class MyLinkedList {
     private MyNode startNode;

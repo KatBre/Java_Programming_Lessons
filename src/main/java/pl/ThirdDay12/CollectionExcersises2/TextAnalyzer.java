@@ -1,4 +1,4 @@
-package pl.CollectionExcersises2;
+package pl.ThirdDay12.CollectionExcersises2;
 
 import java.util.ArrayList;
 import java.util.HashMap;

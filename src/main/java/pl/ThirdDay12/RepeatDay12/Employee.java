@@ -1,8 +1,6 @@
-package pl.CollectionsExcersises;
+package pl.ThirdDay12.RepeatDay12;
 
-import java.util.List;
 import java.util.Objects;
-import java.util.Random;
 
 public class Employee {
     private String name;
@@ -17,10 +15,6 @@ public class Employee {
 
     public void giveRaise(int amount) {
         salary = salary + amount;
-    }
-
-    public int getSalary() {
-        return salary;
     }
 
     @Override
@@ -46,16 +40,4 @@ public class Employee {
     public int hashCode() {
         return Objects.hash(name, peselNumber, salary);
     }
-
-
-
-
-
-
-
-
 }
-
-
-
-

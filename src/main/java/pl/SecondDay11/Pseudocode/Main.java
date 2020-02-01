@@ -1,4 +1,4 @@
-package pl.Pseudocode;
+package pl.SecondDay11.Pseudocode;
 
 public class Main {
     public static void main(String[] args) {

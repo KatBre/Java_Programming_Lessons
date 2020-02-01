@@ -1,0 +1,23 @@
+1.
+
+
+int[]
+
+for each i in arr
+ if i > bigger
+ return biggest is i
+
+
+2.
+
+if int[i] %2 == 0
+return true
+
+
+3.
+
+if int[i] > 0
+ return sum of int[i]
+
+
+

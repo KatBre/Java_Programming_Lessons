@@ -1,4 +1,4 @@
-package pl.sda.day10;
+package pl.FirstDay10;
 
 public class UnitConverter {
     public final double TEMP_CONVERT = 1.8;

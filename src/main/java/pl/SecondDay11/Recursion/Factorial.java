@@ -1,4 +1,4 @@
-package pl.Recursion;
+package pl.SecondDay11.Recursion;
 
 public class Factorial {
     public static long factorial(int c) {

@@ -1,4 +1,4 @@
-package pl.Recursion;
+package pl.SecondDay11.Recursion;
 
 public class AppGCD {
     public static void main(String[] args) {

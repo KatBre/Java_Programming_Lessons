@@ -1,6 +1,4 @@
-package pl.sda.day10;
-
-import org.w3c.dom.ls.LSOutput;
+package pl.FirstDay10;
 
 import java.util.Scanner;
 

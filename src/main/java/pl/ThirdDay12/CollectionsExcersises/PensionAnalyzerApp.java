@@ -1,6 +1,4 @@
-package pl.CollectionsExcersises;
-
-import org.w3c.dom.ls.LSOutput;
+package pl.ThirdDay12.CollectionsExcersises;
 
 import java.util.ArrayList;
 import java.util.List;

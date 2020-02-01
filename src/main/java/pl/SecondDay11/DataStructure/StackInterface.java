@@ -1,4 +1,4 @@
-package pl.DataStructure;
+package pl.SecondDay11.DataStructure;
 
 public interface StackInterface {
     Object pop();

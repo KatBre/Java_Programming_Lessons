@@ -1,4 +1,4 @@
-package pl.Recursion;
+package pl.SecondDay11.Recursion;
 
 public class GreatestCommonDivisor {
     public static int greatestCommonDivisor(int a, int b) {

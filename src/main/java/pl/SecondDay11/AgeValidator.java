@@ -1,4 +1,4 @@
-package pl.Day11;
+package pl.SecondDay11;
 
 import java.time.LocalDate;
 

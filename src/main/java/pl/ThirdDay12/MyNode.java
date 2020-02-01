@@ -1,4 +1,4 @@
-package pl.Day12;
+package pl.ThirdDay12;
 
 public class MyNode {
     public Integer value;

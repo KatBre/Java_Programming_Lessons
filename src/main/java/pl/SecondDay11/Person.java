@@ -1,4 +1,4 @@
-package pl.Day11;
+package pl.SecondDay11;
 
 import java.time.LocalDate;
 
@@ -46,5 +46,15 @@ public class Person {
 
     public void setDateOfBirth(LocalDate dateOfBirth) {
         this.dateOfBirth = dateOfBirth;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", peselNumber='" + peselNumber + '\'' +
+                ", dateOfBirth=" + dateOfBirth +
+                '}';
     }
 }
