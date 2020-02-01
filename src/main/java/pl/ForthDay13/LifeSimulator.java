@@ -30,7 +30,7 @@ public class LifeSimulator {
 
 
     private static void work(Programmer programmer) {
-        if (programmer.isAlive() == true) {
+        if (programmer.isAlive()) {
             System.out.println(programmer.getFirstName() + " " + programmer.getLastName() + " is working.");
             checkPulse(programmer, 10);
         }
@@ -38,14 +38,14 @@ public class LifeSimulator {
 
 
     private static void play(Programmer programmer) {
-        if (programmer.isAlive() == true) {
+        if (programmer.isAlive()) {
             System.out.println(programmer.getFirstName() + " " + programmer.getLastName() + " is playing.");
             checkPulse(programmer, 20);
         }
     }
 
     private static void rest(Programmer programmer) {
-        if (programmer.isAlive() == true) {
+        if (programmer.isAlive()) {
             System.out.println(programmer.getFirstName() + " " + programmer.getLastName() + " is resting.");
             checkPulse(programmer, 3);
         }
