@@ -1,6 +1,4 @@
-package pl.ForthDay13.ex3;
-
-import java.util.Queue;
+package pl.ForthDay13.GenericType;
 
 public class AppQueue {
     public static void main(String[] args) {

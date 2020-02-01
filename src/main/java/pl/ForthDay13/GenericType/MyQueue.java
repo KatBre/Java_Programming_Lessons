@@ -1,4 +1,4 @@
-package pl.ForthDay13.ex3;
+package pl.ForthDay13.GenericType;
 
 import java.util.ArrayList;
 import java.util.List;
