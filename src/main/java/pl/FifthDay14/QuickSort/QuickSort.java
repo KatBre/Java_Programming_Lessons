@@ -7,7 +7,6 @@ public class QuickSort {
         quickSort(tab, 0, tab.length - 1);
     }
 
-
     private static void quickSort(int[] tab, int lowerIndex, int higherIndex) {
         int pivot = tab[(lowerIndex + higherIndex) / 2];
         int leftSearch = lowerIndex;
