@@ -1,10 +1,7 @@
 package pl.SixthDay15;
 
 import java.sql.SQLOutput;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.OptionalDouble;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class IntegerService {
@@ -23,7 +20,7 @@ public class IntegerService {
         return average;
     }
 
-    public static void printStatistics(){
+    public static void printStatistics() {
         int sum = listOfIntegers.stream()
                 .mapToInt(i -> i)
                 .sum();
@@ -33,8 +30,12 @@ public class IntegerService {
                 .average();
         double averageAsDouble = average.getAsDouble();
         System.out.println("Average of elements is: " + Math.round(averageAsDouble));
-
     }
 
-
+    public static void printAllStatistics() {
+        IntSummaryStatistics intSummaryStatistics = listOfIntegers.stream()
+                .mapToInt(x -> x)
+                .summaryStatistics();
+        System.out.println(intSummaryStatistics);
+    }
 }

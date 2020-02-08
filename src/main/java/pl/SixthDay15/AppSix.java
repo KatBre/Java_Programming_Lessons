@@ -15,5 +15,15 @@ public class AppSix {
         OptionalDouble averageOfIntegers = IntegerService.averageOfIntegers();
         System.out.println(averageOfIntegers.getAsDouble());
         IntegerService.printStatistics();
+        IntegerService.printAllStatistics();
+
+        NameChecker checker = new NameChecker();
+        System.out.println(checker.checkGender("Anna"));
+        System.out.println(checker.checkGender("Jakub"));
+        System.out.println(checker.checkGender("Unicorn"));
+        System.out.println(checker.checkGenderOptionTwo("Julia"));
+        System.out.println(checker.checkGenderOptionTwo("Antoni"));
+        System.out.println(checker.checkGenderOptionTwo("Marian"));
+        System.out.println(checker.checkGenderOptionTwo("Marianna"));
     }
 }
